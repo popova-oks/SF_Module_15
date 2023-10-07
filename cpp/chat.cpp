@@ -48,22 +48,6 @@ bool Chat::is_user(char login[]) {
     return false;
 }
 
-void Chat::print() {
-    std::cout << "\nUsers: ";
-    for(int i = 0; i < data_count; i++) {
-        if(data[i] != nullptr) {
-            std::cout << data[i]->login_ << "->";
-        }
-    }
-    std::cout << "\nHashTable:\n";
-    for(int i = 0; i < hash_table_->mem_size; i++) {
-        if(hash_table_->array[i].pass_hash_ != -1) {
-            std::cout << hash_table_->array[i].login_ << " - " << hash_table_->array[i].pass_hash_
-                      << "\n";
-        }
-    }
-}
-
 void Chat::remove(char _login[], char _pass[]) {
     int pass_hash = hash_table_->get_pass_hash(_pass);
     for(int i = 0; i < data_count; i++) {

@@ -9,13 +9,10 @@ typedef char ARRAY [LENGTH]; // псевдоним массива char [NAMELENG
 class Chat::HashTable { // хеш-таблица
   private:
     struct Pair;
-    
-    
-  public:
-    int count;
-
-    int mem_size;
     Pair* array; // массив пар          // убрать в private
+    int mem_size;
+  public:
+    int count; 
 
     HashTable();
     ~HashTable();

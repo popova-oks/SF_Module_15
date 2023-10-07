@@ -20,7 +20,6 @@ class Chat {
     void reg(char _login[], char _pass[]);
     bool login(char _login[], char _pass[]);
     void remove(char _login[], char _pass[]);
-    void print();
 
   private:
     struct AuthData {
