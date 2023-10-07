@@ -1,0 +1,3 @@
+/home/oxana/Документы/SF_Lessons/Projects/Module_15/build/CMakeFiles/module_15.dir
+/home/oxana/Документы/SF_Lessons/Projects/Module_15/build/CMakeFiles/edit_cache.dir
+/home/oxana/Документы/SF_Lessons/Projects/Module_15/build/CMakeFiles/rebuild_cache.dir
